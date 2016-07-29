@@ -20,10 +20,10 @@ var map = L.mapbox.map('map')
 //    layers: 'nasa:bluemarble'
 //}).addTo(map);
 
-var wmsLayer = L.tileLayer.wms('http://svs.gsfc.nasa.gov/cgi-bin/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=2915_21223&FORMAT=image/png&WIDTH=1024&HEIGHT=512&CRS=CRS:84&BBOX=-180.0,-90.0,180.0,90.0&STYLES=', {
-    //layers: 'Complete Earth (2048x1024 Image)'
-    layers: '2915-21224'
-}).addTo(map);
+//var wmsLayer = L.tileLayer.wms('http://svs.gsfc.nasa.gov/cgi-bin/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=2915_21223&FORMAT=image/png&WIDTH=1024&HEIGHT=512&CRS=CRS:84&BBOX=-180.0,-90.0,180.0,90.0&STYLES=', {
+//    //layers: 'Complete Earth (2048x1024 Image)'
+//    layers: '2915-21224'
+//}).addTo(map);
 
 //L.tileLayer('https://api.mapbox.com/styles/v1/chriswills/cir23gikh000ljcnn13ee2y6g/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2hyaXN3aWxscyIsImEiOiJjaXFyeTdhNmgwMDl3aTRubTc2aXZueXhsIn0.ULMwLML50j_FGwrRAWNpEw',{isBaseLayer: true}).addTo(map)
 
